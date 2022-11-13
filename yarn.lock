@@ -191,11 +191,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
   integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
 
-"@types/pug@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@types/pug/-/pug-2.0.4.tgz#8772fcd0418e3cd2cc171555d73007415051f4b2"
-  integrity sha1-h3L80EGOPNLMFxVV1zAHQVBR9LI=
-
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
@@ -205,13 +200,6 @@
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-0.0.8.tgz#f26074d238e02659e323ce1a13d041eee280e194"
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
-  dependencies:
-    "@types/node" "*"
-
-"@types/sass@^1.16.0":
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/@types/sass/-/sass-1.16.0.tgz#b41ac1c17fa68ffb57d43e2360486ef526b3d57d"
-  integrity sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==
   dependencies:
     "@types/node" "*"
 
@@ -982,11 +970,6 @@ dependency-graph@^0.8.0:
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.8.1.tgz#9b8cae3aa2c7bd95ccb3347a09a2d1047a6c3c5a"
   integrity sha512-g213uqF8fyk40W8SBjm079n3CZB4qSpCrA2ye1fLGzH/4HEgB6tzuW2CbLE7leb4t45/6h44Ud59Su1/ROTfqw==
 
-detect-indent@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
-  integrity sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA==
-
 dir-glob@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-3.0.1.tgz#56dbf73d992a4a93ba1584f4534063fd2e41717f"
@@ -1049,10 +1032,10 @@ emoji-regex@^8.0.0:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
-emojis-list@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
-  integrity sha1-TapNnbAPmBmIDHn6RXrlsJof04k=
+emojis-list@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
+  integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
 entities@^2.0.0:
   version "2.0.0"
@@ -2041,12 +2024,12 @@ levn@^0.3.0, levn@~0.3.0:
     ws "^6.2.1"
 
 loader-utils@^1.1.0:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
-  integrity sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.2.tgz#29a957f3a63973883eb684f10ffd3d151fec01a3"
+  integrity sha512-I5d00Pd/jwMD2QCduo657+YM/6L3KZu++pmX9VFncxaxvHcru9jx1lBaFft+r4Mt2jK0Yhp41XlRAihzPxHNCg==
   dependencies:
     big.js "^5.2.2"
-    emojis-list "^2.0.0"
+    emojis-list "^3.0.0"
     json5 "^1.0.1"
 
 local-access@^1.0.1:
@@ -2177,9 +2160,9 @@ minimist@0.0.8:
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
 minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -2600,7 +2583,7 @@ postcss-js@^2.0.0:
     camelcase-css "^2.0.1"
     postcss "^7.0.18"
 
-postcss-load-config@^2.0.0, postcss-load-config@^2.1.0:
+postcss-load-config@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-2.1.0.tgz#c84d692b7bb7b41ddced94ee62e8ab31b417b003"
   integrity sha512-4pV3JJVPLd5+RueiVVB+gFOAa7GWc25XQcMp86Zexzke69mKf6Nx9LRcQywdz7yZI9n1udOxmLuAwTBypypF8Q==
@@ -3516,11 +3499,6 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-strip-indent@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-2.0.0.tgz#5ef8db295d01e6ed6cbf7aab96998d7822527b68"
-  integrity sha1-XvjbKV0B5u1sv3qrlpmNeCJSe2g=
-
 strip-json-comments@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.0.1.tgz#85713975a91fb87bf1b305cca77395e40d2a64a7"
@@ -3572,16 +3550,6 @@ supports-color@^7.1.0:
   integrity sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
   dependencies:
     has-flag "^4.0.0"
-
-svelte-preprocess@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.3.1.tgz#2729e83ec90cfe28ced721d2f61e09e8b7af30a7"
-  integrity sha512-nHfkZ9eNcke1OhXJb+wX8ShYw2/kMNM/Bj/URgkGxURfkycgH/gaLDYLctp2rmpKf92+JO1848KMBQG1DbX/Zg==
-  dependencies:
-    "@types/pug" "^2.0.4"
-    "@types/sass" "^1.16.0"
-    detect-indent "^6.0.0"
-    strip-indent "^2.0.0"
 
 svelte@^3.0.0:
   version "3.18.1"
